@@ -194,6 +194,25 @@ $refresh_interval = 5;
 // Lines per page (20-120)
 $lines_per_page = 20;
 ```
+
+### 🔐 Authentication Configuration to access SVXReflector Log Viewer
+
+```php
+// Example user credential configuration
+'users' => [
+    "admin" => "admin",
+    "user" => "123456",
+    "user1" => "user123"
+]
+```
+
+### 👤 SYSOP Information
+
+This information appears in the FOOTER section
+```php
+$SYSOP = "CN8VX";
+$SYSOPNAME = "Youness";
+```
 ### 📘 Info bulle Client
 When you hover your mouse cursor over a customer, it shows you the tooltip.
 
@@ -224,25 +243,6 @@ sudo nano /var/www/html/include/tgdb.php
 	//'#talkgroup_number' => 'Alias Name',
 	//'#talkgroup_number' => 'Alias Name',
 	//'#talkgroup_number' => 'Alias Name',
-```
-
-### 🔐 Authentication Configuration to access SVXReflector Log Viewer
-
-```php
-// Example user credential configuration
-'users' => [
-    "admin" => "admin",
-    "user" => "123456",
-    "user1" => "user123"
-]
-```
-
-### 👤 SYSOP Information
-
-This information appears in the FOOTER section
-```php
-$SYSOP = "CN8VX";
-$SYSOPNAME = "Youness";
 ```
 
 ## 🎛️ Navbar Customization
@@ -321,3 +321,4 @@ This project is developed by [CN8VX](https://www.qrz.com/db/CN8VX) under GPL lic
 ---
 
 **73 from CN8VX**
+

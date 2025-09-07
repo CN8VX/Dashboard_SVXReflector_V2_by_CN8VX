@@ -41,10 +41,10 @@ Ce n'est pas une simple mise à jour, mais une **refonte complète** avec de nom
 ### 📊 Screenshots / Captures d’écran
 
 ### Dashboard SVXReflector V2
-![Dashboard SVXReflector V2](screenshots/Dashboard_SVXReflector_V2.png)
+![Dashboard SVXReflector V2](img/Dashboard_SVXReflector_V2.png)
 
 ### SVXReflector Log Viewer
-![SVXReflector Log Viewer](screenshots/SVXReflector_Log_Viewer.png)
+![SVXReflector Log Viewer](img/SVXReflector_Log_Viewer.png)
 
 ---
 

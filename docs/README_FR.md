@@ -194,6 +194,26 @@ $refresh_interval = 5;
 // Lignes par page (20-120)
 $lines_per_page = 20;
 ```
+
+### 🔐 Configuration d'Authentification pour accéder a SVXReflector Log Viewer
+
+```php
+// Exemple de configuration des identifiants utilisateurs
+'users' => [
+    "admin" => "admin",
+    "user" => "123456",
+    "user1" => "user123"
+]
+```
+
+### 👤 Informations SYSOP
+
+Ces informations apparaissent dans la partie FOOTER
+```php
+$SYSOP = "CN8VX";
+$SYSOPNAME = "Youness";
+```
+
 ### 📘 Info bulle Client
 Quand tu poses le curseur de la sourie sur un client il te montre l’info bulle.
 
@@ -224,25 +244,6 @@ sudo nano /var/www/html/include/tgdb.php
 	//'#talkgroup_number' => 'Alias Name',
 	//'#talkgroup_number' => 'Alias Name',
 	//'#talkgroup_number' => 'Alias Name',
-```
-
-### 🔐 Configuration d'Authentification pour accéder a SVXReflector Log Viewer
-
-```php
-// Exemple de configuration des identifiants utilisateurs
-'users' => [
-    "admin" => "admin",
-    "user" => "123456",
-    "user1" => "user123"
-]
-```
-
-### 👤 Informations SYSOP
-
-Ces informations apparaissent dans la partie FOOTER
-```php
-$SYSOP = "CN8VX";
-$SYSOPNAME = "Youness";
 ```
 
 ## 🎛️ Personnalisation des Navbar
@@ -321,6 +322,7 @@ Ce projet est développé par [CN8VX](https://www.qrz.com/db/CN8VX) sous licence
 ---
 
 **73 de CN8VX**
+
 
 
 

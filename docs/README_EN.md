@@ -217,7 +217,6 @@ sudo nano /var/www/html/include/tgdb.php
 ```
 ```php
 // Example of an alias for Talk Group.
-$tgdb_array = [
 	'#0'     => 'IDLE',
 	'#6041'    => 'Cross Mode DMR = ANALOGIQUE',
 	'#604' => 'Morocco - National',
@@ -225,7 +224,6 @@ $tgdb_array = [
 	//'#talkgroup_number' => 'Alias Name',
 	//'#talkgroup_number' => 'Alias Name',
 	//'#talkgroup_number' => 'Alias Name',
-];
 ```
 
 ### 🔐 Authentication Configuration to access SVXReflector Log Viewer
@@ -323,4 +321,3 @@ This project is developed by [CN8VX](https://www.qrz.com/db/CN8VX) under GPL lic
 ---
 
 **73 from CN8VX**
-

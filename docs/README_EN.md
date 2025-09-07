@@ -92,6 +92,8 @@ Specialized page developed by [CN8VX](https://www.qrz.com/db/CN8VX) accessible o
 #### A. First installation
 ```bash
 cd /var/www/html
+```
+```bash
 sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_V2.git .
 ```
 
@@ -306,4 +308,5 @@ This project is developed by [CN8VX](https://www.qrz.com/db/CN8VX) under GPL lic
 ---
 
 **73 from CN8VX**
+
 

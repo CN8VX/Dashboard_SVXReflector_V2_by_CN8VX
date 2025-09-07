@@ -1,0 +1,14 @@
+# Forcer GitHub Linguist à reconnaître les bons langages
+
+# Tout ce qui est .php = PHP
+*.php linguist-language=PHP
+
+# Tout ce qui est .css = CSS
+*.css linguist-language=CSS
+
+# Tout ce qui est .js = JavaScript
+*.js linguist-language=JavaScript
+
+# Ignorer certains dossiers dans les stats
+screenshots/* linguist-vendored
+docs/* linguist-vendored

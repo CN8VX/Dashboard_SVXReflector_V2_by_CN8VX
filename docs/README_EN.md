@@ -204,13 +204,11 @@ sudo nano /var/www/html/include/userdb.php
 Then modify 'Callsing' and 'descriptif'
 ```php
 // Example of information for connecting customers
-$userdb_array = [
     'CN8VX-SV'		=> 'Répéteur Simplex VHF de Mohemadia 145.250Mhz',
     'CN8EAA-L'		=> 'Répéteur Duplex VHF de Témara 145.73750Mhz',
     /*'Callsing'		=> 'descriptif',*/
     /*'Callsing'		=> 'descriptif',*/
     /*'Callsing'		=> 'descriptif',*/
-];
 ```
 ### 🛈 Alias ​​name for TG
 Edit the file `tgdb.php` to name your Talk Groups :
@@ -325,3 +323,4 @@ This project is developed by [CN8VX](https://www.qrz.com/db/CN8VX) under GPL lic
 ---
 
 **73 from CN8VX**
+

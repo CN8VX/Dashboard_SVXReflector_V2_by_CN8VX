@@ -38,7 +38,7 @@ Ajout de 📅 Date et heure en 🕒 locale et en 🌍 UTC, ajout des symboles av
 
 ## 🔍 SVXReflector Log Viewer
 
-Page spécialisée développée par [CN8VX](https://www.qrz.com/db/CN8VX) accessible uniquement au sysop et aux utilisateurs autorisés avec mot de passe.
+Page spécialisée développée par ![CN8VX](https://www.qrz.com/db/CN8VX) accessible uniquement au sysop et aux utilisateurs autorisés avec mot de passe.
 
 ### Types d'actions reconnues
 - 🔵 **Login OK** (bleu)
@@ -308,5 +308,6 @@ Ce projet est développé par [CN8VX](https://www.qrz.com/db/CN8VX) sous licence
 ---
 
 **73 de CN8VX**
+
 
 

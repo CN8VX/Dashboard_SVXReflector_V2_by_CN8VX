@@ -49,4 +49,4 @@ Ce n'est pas une simple mise à jour, mais une **refonte complète** avec de nom
 ---
 
 ## 🛠 Author / Auteur
-Developed by / Développé par **CN8VX**
+Developed by [**CN8VX**](https://www.qrz.com/db/CN8VX)

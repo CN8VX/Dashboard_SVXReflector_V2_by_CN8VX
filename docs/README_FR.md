@@ -94,7 +94,7 @@ Page spécialisée développée par [CN8VX](https://www.qrz.com/db/CN8VX) access
 cd /var/www/html
 ```
 ```bash
-sudo git clone https://github.com/CN8VX/Dashboard_SVXReflector_V2_by_CN8VX .
+sudo git clone https://github.com/CN8VX/Dashboard_SVXReflector_V2_by_CN8VX.git .
 ```
 
 #### B. Mise à jour depuis V1
@@ -104,7 +104,7 @@ cd /var/www/
 sudo rm -rf /var/www/html/*
 sudo rm -rf /var/www/html/.*
 cd /var/www/html
-sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_V2.git .
+sudo git clone https://github.com/CN8VX/Dashboard_SVXReflector_V2_by_CN8VX.git .
 ```
 
 ### Étape 3 : Permissions
@@ -321,6 +321,7 @@ Ce projet est développé par [CN8VX](https://www.qrz.com/db/CN8VX) sous licence
 ---
 
 **73 de CN8VX**
+
 
 
 

@@ -203,14 +203,27 @@ sudo nano /var/www/html/include/userdb.php
 ```
 Puis modifier 'Callsing' et 'descriptif'
 ```php
-// Exemple d’infos pour clients connecter
-$userdb_array = [
+// Exemple d’infos pour clients connecter.
     'CN8VX-SV'		=> 'Répéteur Simplex VHF de Mohemadia 145.250Mhz',
     'CN8EAA-L'		=> 'Répéteur Duplex VHF de Témara 145.73750Mhz',
-    /*'Callsing'		=> 'descriptif',*/
-    /*'Callsing'		=> 'descriptif',*/
-    /*'Callsing'		=> 'descriptif',*/
-];
+    //'Callsing'		=> 'descriptif',
+    //'Callsing'		=> 'descriptif',
+    //'Callsing'		=> 'descriptif',
+```
+### 🛈 Nom d'alias pour TG
+Éditez le fichier `tgdb.php` pour nommer vos Talk Group :
+```bash
+sudo nano /var/www/html/include/tgdb.php
+```
+```php
+// Exemple d'alias pour Talk Group.
+	'#0'     => 'IDLE',
+	'#6041'    => 'Cross Mode DMR = ANALOGIQUE',
+	'#604' => 'Morocco - National',
+	'#604112' => 'EmComm Morocco',
+	//'#talkgroup_number' => 'Alias Name',
+	//'#talkgroup_number' => 'Alias Name',
+	//'#talkgroup_number' => 'Alias Name',
 ```
 
 ### 🔐 Configuration d'Authentification pour accéder a SVXReflector Log Viewer

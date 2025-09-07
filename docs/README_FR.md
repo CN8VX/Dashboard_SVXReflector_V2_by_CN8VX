@@ -7,7 +7,7 @@
 
 ## 📋 Description
 
-Dashboard SVXReflector V2 est la version améliorée du "Dashboard SvxReflector by CN8VX". Cette deuxième version n'est pas une simple mise à jour, mais une refonte avec de nombreuses améliorations et nouvelles fonctionnalités.
+Dashboard SVXReflector V2 est la version améliorée du [Dashboard SvxReflector by CN8VX](https://github.com/CN8VX/Dashboard_SvxReflector_by_CN8VX). Cette deuxième version n'est pas une simple mise à jour, mais une refonte avec de nombreuses améliorations et nouvelles fonctionnalités.
 
 ### ✨ Nouvelles fonctionnalités du Dashboard SVXReflector V2 by CN8VX
 
@@ -308,6 +308,7 @@ Ce projet est développé par [CN8VX](https://www.qrz.com/db/CN8VX) sous licence
 ---
 
 **73 de CN8VX**
+
 
 
 

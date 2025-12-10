@@ -3,7 +3,7 @@
     <div class="nav-links">
         <!-- Fixed links -->
         <a href="index.php" class="nav-link nfixe"><i class="fa fa-home"></i>&nbsp;Home</a>
-        <a href="http://51.210.47.236/" class="nav-link nfixe">SvxReflector</a>
+        <a href="http://51.91.156.161/" class="nav-link nfixe">SvxReflector</a>
         
         <!-- Dynamic links -->
         <a target="_blank" href="https://www.dmr-maroc.com/" class="nav-link">DMR-MAROC</a>

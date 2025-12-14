@@ -6,9 +6,9 @@
         <a target="_blank" href="logviewer/index.php" class="nav-link nfixe">SVXReflector</a>
 
         <!-- Dynamic links -->
-        <a target="_blank" href="http://135.125.205.162:8080/" class="nav-link">FreeDMR-Maroc</a>
+        <a target="_blank" href="http://57.131.35.97:8080/" class="nav-link">FreeDMR-Maroc</a>
         <a target="_blank" href="http://6041.adn.systems/" class="nav-link">ADN-Maroc</a>
-        <a target="_blank" href="http://135.125.205.162/supermon/link.php?nodes=492510,590820" class="nav-link">HUB AllStarLink-MaroC</a>
+        <a target="_blank" href="http://57.131.35.97/allmon3/" class="nav-link">HUB AllStarLink-MaroC</a>
         <a target="_blank" href="https://www.dmr-maroc.com/Repeater_Cards/" class="nav-link">Repeater Cards</a>
         
         <!-- Menu avec sous-menu/Menu with submenu -->

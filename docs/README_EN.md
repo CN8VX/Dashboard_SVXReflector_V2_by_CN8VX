@@ -300,7 +300,7 @@ All questions, issues, or suggestions are welcome! Feel free to:
 - Propose improvements
 - Share your suggestions
 
-📧 **Email**: [cn8vx.ma@gmail.com](mailto:cn8vx.ma@gmail.com) or via [Form](https://www.dmr-maroc.com/formulaires.php)
+📧 **Email**: [cn8vx.ma@gmail.com](mailto:cn8vx.ma@gmail.com)
 
 ### Before contacting support
 
@@ -321,5 +321,6 @@ This project is developed by [CN8VX](https://www.qrz.com/db/CN8VX) under GPL lic
 ---
 
 **73 from CN8VX**
+
 
 

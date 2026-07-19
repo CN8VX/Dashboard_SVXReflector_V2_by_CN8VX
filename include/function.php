@@ -60,6 +60,12 @@ function getlastlog_svxreflector($logfile, $logcount, $include = null) {
                 if (!$excludeLine) {
                     // Supprimer toutes les adresses IP et leurs ports de la ligne
                     $line = preg_replace('/\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}(?::[0-9]+)?\b/', '', $line);
+                    
+                    // SUPPRIMER TOUS LES [info] (client, core, ou seuls)
+                    $line = preg_replace('/\[info\]\s*\[(?:client|core)\]\s*/', '', $line);
+                    $line = preg_replace('/\[info\]\s*/', '', $line);
+                    $line = preg_replace('/\binfo\b\s*/', '', $line);
+                    
                     // Nettoyer les espaces multiples et les espaces en début/fin
                     $line = trim(preg_replace('/\s+/', ' ', $line));
                     // Nettoyer les "from " ou "from" orphelins
@@ -90,12 +96,24 @@ function getlastlog_svxreflector($logfile, $logcount, $include = null) {
             }
         }
         if (!$excludeLine && (!$include || stripos($line, $include) !== false)) {
-            $lines[] = $line;
+            // Appliquer le même nettoyage pour la dernière ligne
+            $line = preg_replace('/\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}(?::[0-9]+)?\b/', '', $line);
+            $line = preg_replace('/\[info\]\s*\[(?:client|core)\]\s*/', '', $line);
+            $line = preg_replace('/\[info\]\s*/', '', $line);
+            $line = preg_replace('/\binfo\b\s*/', '', $line);
+            $line = trim(preg_replace('/\s+/', ' ', $line));
+            $line = preg_replace('/\bfrom\s*$/', '', $line);
+            $line = preg_replace('/\bfrom\s+with/', 'with', $line);
+            $line = trim($line);
+            
+            if (!empty(trim($line))) {
+                $lines[] = $line;
+            }
         }
     }
 
     fclose($fp);
-    return $lines; // Déjà dans l’ordre du plus récent au plus ancien
+    return $lines; // Déjà dans l'ordre du plus récent au plus ancien
 }
 
 
@@ -112,10 +130,16 @@ function logtounixtime($timestring) {
 
 <?php
 // Fonction d'affichage des logs avec des icônes
+// Fonction d'affichage des logs avec des icônes
 function formatLogWithIcons($logLines) {
     $formattedLines = [];
     
     foreach ($logLines as $line) {
+        // Nettoyage supplémentaire des [info]
+        $line = preg_replace('/\[info\]\s*\[(?:client|core)\]\s*/', '', $line);
+        $line = preg_replace('/\[info\]\s*/', '', $line);
+        $line = trim($line);
+        
         $icon = '⚪'; // Icône par défaut
         
         // Détection du type d'événement et attribution de l'icône

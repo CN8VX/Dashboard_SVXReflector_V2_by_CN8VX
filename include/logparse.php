@@ -26,6 +26,7 @@ function getdata($logfilename) {
 
     foreach ($logline as $value) {
 	$value = str_replace(" CEST:", "",$value);
+	$value = preg_replace('/\[info\]\s*\[(?:client|core)\]\s*/', '', $value);
 	
 	
         if(preg_match("/Monitor TG/i", $value)) {

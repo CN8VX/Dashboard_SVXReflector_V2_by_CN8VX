@@ -5,6 +5,6 @@
 <br><br>
     <div class="fixed-footer">
         <p>SYSOP of Reflector : <a href="https://www.qrz.com/db/<?php echo $SYSOP; ?>" target="_blank"><?php echo $SYSOP; ?></a> <?php echo $SYSOPNAME; ?> | 
-        Dashboard SvxReflector V2 by <a target="_blank" href="https://github.com/CN8VX">CN8VX</a>. Version <b>1.1</b> © <?php echo "2025 - " . date("Y"); ?> All rights reserved.</p>
+        Dashboard SvxReflector V2 by <a target="_blank" href="https://github.com/CN8VX">CN8VX</a>. Version <b>1.2</b> © <?php echo "2025 - " . date("Y"); ?> All rights reserved.</p>
     </div>
 </footer>

@@ -62,7 +62,7 @@ function getlastlog_svxreflector($logfile, $logcount, $include = null) {
                     $line = preg_replace('/\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}(?::[0-9]+)?\b/', '', $line);
                     
                     // SUPPRIMER TOUS LES [info] (client, core, ou seuls)
-                    $line = preg_replace('/\[info\]\s*\[(?:client|core)\]\s*/', '', $line);
+                    $line = preg_replace('/\[info\]\s*\[(?:client|core|trunk)\]\s*/', '', $line);
                     $line = preg_replace('/\[info\]\s*/', '', $line);
                     $line = preg_replace('/\binfo\b\s*/', '', $line);
                     

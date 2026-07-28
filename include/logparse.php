@@ -114,7 +114,8 @@ function getdata($logfilename) {
             } else {
                 // member not found add im
                 // ### ReflectorClient::disconnect: Access denied Call "Client" not allowed in list :)
-                if ($data[2] !== "Client")
+                // ### Ignorer aussi les clients jamais authentifiés (identifiant = IP:port fusionnée, ex: "196.119.53.15448812")
+                if ($data[2] !== "Client" && !preg_match('/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\d+$/', $data[2]))
                 {
                     $clients[] = array( 'CALL'=> $data[2], 'LOGINOUTTIME'=> $data[0]." ".substr($data[1], 0, -1),
                     'IP'=> $data[4], 'STATUS'=> "OFFLINE",
